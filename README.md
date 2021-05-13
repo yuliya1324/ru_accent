@@ -2,7 +2,10 @@
 
 Для разметки ударений в строке:
 
->>> from main.py import accent_line
->>> accent_line('Разметь ударения, пожалуйста')
+```
+from main.py import accent_line
+
+accent_line('Разметь ударения, пожалуйста')
+```
 
 P.S. Скоро появится библиотека на PyPi
