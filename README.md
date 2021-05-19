@@ -4,7 +4,7 @@ This is a tool for putting stress marks in russian poetic texts
 
 ### Installation
 ```
-pip install ru_accent_poet
+pip install ru-accent-poet
 ```
 ### Usage example
 
