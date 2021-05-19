@@ -1,13 +1,25 @@
-Для разметки ударений в файле/файлах: 
+# ru_accent_poet
 
-main.py \<files\>
+This is a tool for putting stress marks in russian poetic texts 
 
-Для разметки ударений в строке:
-
+### Installation
 ```
-from main.py import accent_line
+pip install ru_accent_poet
+```
+### Usage example
 
-accent_line('Разметь ударения, пожалуйста')
+To put stress marks in text
+```
+>>> from ru_accent_poet import ru_accent
+>>> ru_accent.accent_line('Это инструмент для разметки ударений')
+Э'то инструме'нт для разме'тки ударе'ний
 ```
 
-P.S. Скоро появится библиотека на PyPi
+To put stress marks in files
+```
+>>> ru_accent.write_file(['my_file_1.txt'])
+```
+
+This will return new file called 
+"my_file.accented.txt" with the same text 
+where stress marks are put
