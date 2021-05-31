@@ -1,0 +1,4 @@
+include README.md
+include LICENSE
+include ru_accent_poet/accent.dic
+include ru_accent_poet/accent1.dic

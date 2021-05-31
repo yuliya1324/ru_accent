@@ -1,7 +1,7 @@
 from russtress import Accent
 import re
 import sys
-from rules import accent_line_rules
+from .rules import accent_line_rules
 
 accent = Accent()
 non_str = ['обо', 'изо', 'подо', 'нибудь']
