@@ -6,7 +6,7 @@ import sys
 BASE_DIR = os.path.dirname(__file__)
 
 def read_dict(filename, dic):
-    with open(filename) as file_read:
+    with open(filename, encoding='cp1251') as file_read:
         for line in file_read:
             if line.split():
                 word, acc = line.split()
