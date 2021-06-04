@@ -7,7 +7,7 @@ requirements = ["requests>=2.21.0", "russtress"]
 
 setuptools.setup(
     name="ru_accent_poet",
-    version="0.1.4",
+    version="0.1.5",
     author="Julia Korotkova",
     author_email="koylenka15@gmail.com",
     description="A package for putting stress marks in russian poetic texts",
