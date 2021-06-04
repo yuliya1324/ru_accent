@@ -1,7 +1,9 @@
+import os
 import re
 from collections import defaultdict
 import sys
 
+BASE_DIR = os.path.dirname(__file__)
 
 def read_dict(filename, dic):
     with open(filename) as file_read:
@@ -82,8 +84,8 @@ def main():
 
 
 di = defaultdict(str)
-di = read_dict('accent1.dic', di)
-di = read_dict('accent.dic', di)
+di = read_dict(os.path.join(BASE_DIR, 'accent1.dic'), di)
+di = read_dict(os.path.join(BASE_DIR, 'accent.dic'), di)
 
 
 if __name__ == '__main__':
