@@ -10,14 +10,14 @@ pip install ru-accent-poet
 
 To put stress marks in text
 ```
->>> from ru_accent_poet import ru_accent
->>> ru_accent.accent_line('Это инструмент для разметки ударений')
+>>> from ru_accent_poet import accent_line
+>>> accent_line('Это инструмент для разметки ударений')
 Э'то инструме'нт для разме'тки ударе'ний
 ```
 
 To put stress marks in files
 ```
->>> ru_accent.write_file(['my_file_1.txt'])
+>>> ru_accent_poet.write_file(['my_file_1.txt'])
 ```
 
 This will return new file called 
