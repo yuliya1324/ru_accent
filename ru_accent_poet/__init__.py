@@ -1,9 +1,16 @@
-from russtress import Accent
 import re
 import sys
+import os
+import tensorflow as tf
 from .rules import accent_line_rules
+from .patch_russtress import PatchedAccent
 
-accent = Accent()
+# Suppress TensorFlow warnings
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
+tf.get_logger().setLevel('ERROR')
+
+# Initialize our patched version of the Accent class for TensorFlow/Keras compatibility
+accent = PatchedAccent()
 non_str = ['обо', 'изо', 'подо', 'нибудь']
 
 

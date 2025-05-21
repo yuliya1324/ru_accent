@@ -1,4 +1,13 @@
 include README.md
 include LICENSE
+include CHANGELOG.en.md
+include CHANGELOG.ru.md
+include WORKFLOW.en.md
+include WORKFLOW.ru.md
+include pytest.ini
+include run_tests.py
 include ru_accent_poet/accent.dic
 include ru_accent_poet/accent1.dic
+
+recursive-include tests *.py
+recursive-include tests *.md
