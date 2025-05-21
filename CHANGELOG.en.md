@@ -1,6 +1,6 @@
 # Changelog
 
-## [0.1.6] - 2024-05-21
+## [0.1.6] - 2025-05-21
 
 Changes by Danslav Slavenskoj
 
