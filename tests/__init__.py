@@ -1,0 +1,1 @@
+# Test suite initialization for ru_accent_poet

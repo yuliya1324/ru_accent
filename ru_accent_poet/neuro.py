@@ -1,8 +1,15 @@
-from russtress import Accent
 import sys
 import re
+import os
+import tensorflow as tf
+from .patch_russtress import PatchedAccent
 
-accent = Accent()
+# Suppress TensorFlow warnings
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
+tf.get_logger().setLevel('ERROR')
+
+# Initialize our patched version of the Accent class for TensorFlow/Keras compatibility
+accent = PatchedAccent()
 
 
 def accent_neuro(files):

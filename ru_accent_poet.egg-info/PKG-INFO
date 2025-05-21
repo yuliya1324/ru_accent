@@ -1,3 +1,46 @@
+Metadata-Version: 2.4
+Name: ru_accent_poet
+Version: 0.1.6
+Summary: A package for putting stress marks in Russian poetic texts
+Home-page: https://github.com/yuliya1324/ru_accent
+Author: Julia Korotkova
+Author-email: koylenka15@gmail.com
+Maintainer: Danslav Slavenskoj
+Project-URL: Changelog (EN), https://github.com/yuliya1324/ru_accent/blob/master/CHANGELOG.en.md
+Project-URL: Changelog (RU), https://github.com/yuliya1324/ru_accent/blob/master/CHANGELOG.ru.md
+Project-URL: Workflow (EN), https://github.com/yuliya1324/ru_accent/blob/master/WORKFLOW.en.md
+Project-URL: Workflow (RU), https://github.com/yuliya1324/ru_accent/blob/master/WORKFLOW.ru.md
+Keywords: russian,accent,stress,poetry,nlp,linguistics
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Russian
+Classifier: Topic :: Text Processing :: Linguistic
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests>=2.21.0
+Requires-Dist: russtress>=0.1.4
+Requires-Dist: tensorflow>=2.15.0
+Requires-Dist: numpy>=1.25.0
+Requires-Dist: scipy>=1.11.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: license-file
+Dynamic: maintainer
+Dynamic: project-url
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
 # ru_accent_poet
 
 This is a tool for putting stress marks in Russian poetic texts.

@@ -1,0 +1,5 @@
+requests>=2.21.0
+russtress>=0.1.4
+tensorflow>=2.15.0
+numpy>=1.25.0
+scipy>=1.11.0
